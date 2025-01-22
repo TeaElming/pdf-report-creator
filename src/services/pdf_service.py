@@ -4,7 +4,7 @@ from reportlab.lib.pagesizes import A4
 import base64
 import io
 from PIL import Image as PILImage
-from data_structures import DataExtractor
+from services.data_structures import DataExtractor
 
 
 def generate_pdf(filename, raw_json, structure="standard"):
